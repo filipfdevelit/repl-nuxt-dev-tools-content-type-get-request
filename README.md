@@ -1,5 +1,5 @@
 # repl-nuxt-dev-tools-content-type-get-request
-The replication of a bug occuring in [nuxt/devtools](https://github.com/nuxt/devtools) repository. Dev Tools are adding Content-Type header with `application/json` value which is against the [RFS 7231](https://datatracker.ietf.org/doc/html/rfc7231#section-4.3.1) specification.
+The replication of a bug occuring in [nuxt/devtools](https://github.com/nuxt/devtools) repository. Dev Tools are adding Content-Type header with `application/json` value which is against the [RFS 7231](https://datatracker.ietf.org/doc/html/rfc7231#section-4.3.1) specification. Refer [here](https://github.com/nuxt/devtools/issues/691) for the discussion about this issue.
 
 ## Nuxt 3 Minimal Starter
 
